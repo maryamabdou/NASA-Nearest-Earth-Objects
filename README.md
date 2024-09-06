@@ -11,25 +11,25 @@ The following steps were followed in this project:
 
 ### Data Importing and Cleaning
 
-Imported the dataset using Pandas.
-Handled missing values and ensured data integrity.
+Imported the dataset using Pandas. <br>
+Handled missing values and ensured data integrity. <br>
 Dropped irrelevant columns such as object 'name' and 'orbiting_body' columns.
 
 ### Exploratory Data Analysis (EDA)
 
-Performed visual and statistical exploration to understand the distribution of features and the target variable (is_hazardous).
-Visualized the distribution of important variables such as absolute_magnitude and relative_velocity with with hazardous label
+Performed visual and statistical exploration to understand the distribution of features and the target variable (is_hazardous). <br>
+Visualized the distribution of important variables such as absolute_magnitude and relative_velocity with with hazardous label.
 
 ### Data Preprocessing
 
-Scaled numerical features to ensure they have similar ranges. 
-Applied Synthetic Minority Over-sampling Technique (SMOTE) to handle the imbalanced target classes.
+Scaled numerical features to ensure they have similar ranges. <br>
+Applied Synthetic Minority Over-sampling Technique (SMOTE) to handle the imbalanced target classes. <br>
 Encoded categorical variables using one-hot encoding where necessary.
 
 ### Model Training and Evaluation
 
-Split the data into 80 %training and 20% testing sets.
-Trained a Random Forest Classifier to predict whether an object is hazardous.
+Split the data into 80 %training and 20% testing sets. <br>
+Trained a Random Forest Classifier to predict whether an object is hazardous. <br>
 Evaluated the model using metrics such as Precision, Recall, F1-Score, AUC-ROC, and Balanced Accuracy.
 
 ## 📈 Insights and Findings
