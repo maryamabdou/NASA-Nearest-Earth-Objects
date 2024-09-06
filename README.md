@@ -22,7 +22,7 @@ Visualized the distribution of important variables such as absolute_magnitude an
 
 ### Data Preprocessing
 
-Scaled numerical features to ensure they have similar ranges.
+Scaled numerical features to ensure they have similar ranges. 
 Applied Synthetic Minority Over-sampling Technique (SMOTE) to handle the imbalanced target classes.
 Encoded categorical variables using one-hot encoding where necessary.
 
@@ -33,6 +33,6 @@ Trained a Random Forest Classifier to predict whether an object is hazardous.
 Evaluated the model using metrics such as Precision, Recall, F1-Score, AUC-ROC, and Balanced Accuracy.
 
 ## 📈 Insights and Findings
-Class Imbalance: The dataset is highly imbalanced with very few hazardous objects. SMOTE significantly improved model performance by generating synthetic data for the minority class.
-Important Features: Features like absolute_magnitude, est_diameter_min, and est_diameter_max are key predictors of whether an object is hazardous.
+Class Imbalance: The dataset is highly imbalanced with very few hazardous objects. SMOTE significantly improved model performance by generating synthetic data for the minority class. <br>
+Important Features: Features like absolute_magnitude, est_diameter_min, and est_diameter_max are key predictors of whether an object is hazardous. <br>
 Model Performance: The Random Forest Classifier gave excellent results on the balanced dataset, achieving high precision and recall values, along with a high AUC-ROC score.
